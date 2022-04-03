@@ -1,0 +1,71 @@
+.services
+{
+  text-align: center;
+}
+
+#services
+{
+  margin-bottom: 20px;
+}
+
+.services h1
+{
+  display: inline-block;
+  font-size: 40px;
+  padding-bottom: 10px;
+  margin-top: 40px;
+}
+
+.cen
+{
+  max-width: 1300px;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.service
+{
+  display: inline-block;
+  margin: 0 -2px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+body{
+  background-repeat: no-repeat;
+
+}
+
+.image{
+  width: 100%;
+}
+
+.service i
+{
+  color: black;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+
+.service h2
+{
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0;
+}
+
+.service p
+{
+  color: gray;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+@media screen and (max-width:1085px) {
+  .image{
+      width: 100%;
+      margin-top: 80px !important;
+  }
+}

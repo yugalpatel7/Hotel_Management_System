@@ -1,0 +1,91 @@
+.room-image{
+    overflow: hidden !important; 
+    margin: 0 auto !important; 
+}
+.room-image img {
+    width: 100% !important; 
+    transition: 0.3s all ease-in-out !important; 
+}
+
+.room-image:hover img {
+    transform: scale(1.1) !important;
+}
+
+body{
+    background-repeat: no-repeat;
+}
+
+.title h2{
+    font-size: 30px;
+    font-family: 'Prompt', arial;
+}
+  
+  .rooms{
+    margin: 40px 0;
+  }
+  .room{
+    margin: 45px 0;
+    padding-bottom: 25px;
+    background: black;
+    color: #fff;
+    border-radius: 50px;
+  }
+  .room-text{
+    padding: 5px 20px;
+  }
+  .room-text h3{
+    font-size: 24px;
+  }
+  
+ 
+  .rate span{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Prompt',arial;
+  }
+  
+  .rooms1{
+    margin-left: 10px !important;
+  }
+  
+  @media (min-width: 900px){
+    .rooms-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .room{
+        flex: 0 0 calc(50% - 20px);
+        margin: 10px;
+    }
+  }
+  @media(min-width: 1370px){
+    .rooms-container{
+        flex-direction: column;
+    }
+    .room{
+        display: flex;
+        padding-bottom: 0;
+        margin: 5px 0;
+    }
+    .room-image{
+        flex: 1;
+    }
+    .room-image img{
+        height: 100%;
+    }
+    .room-text{
+        flex: 1;
+    }
+  }
+
+  .book{
+    margin-left: 1%;
+     font-family: 'Prompt',arial;
+  }
+
+  @media screen and (max-width:1085px) {
+    .image{
+        width: 100%;
+    }
+  }
+  

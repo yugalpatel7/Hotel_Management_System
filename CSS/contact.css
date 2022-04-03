@@ -1,0 +1,24 @@
+label{
+    font-weight: 550;
+}
+
+.p-5{
+    margin-left: -40x !important;
+}
+
+iframe{
+    margin-left: -8px !important;
+}
+
+h1{
+    font-family: 'Prompt', arial;
+}
+
+body{
+    margin-top: 110px;
+    background-repeat: no-repeat;
+}
+
+.site-section{
+    margin-top: -48px !important;
+}
