@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width", initial-scale="1.0"  />
+    <title>The Oberoi</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@600&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="../CSS/contact.css">
+    <link rel="icon" href="../images/logo-titlebar.png" type="image/icon">
+  </head>
+<body>
+
+<!--Navbar-->
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-transparent">
+  <a class="navbar-brand" href="index.html"><img src="../images/logo-nav.png"><b> The Oberoi</b></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html"><b>Home</b> </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="rooms.html"><b>Rooms</b></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="services.html"><b>Services</b></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="contact.html"><b>Contact-us</b></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!--Feedback Form-->
+<div class="site-section site-section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-lg-8 mb-5">
+      <form class="p-5 bg-white" name="form" onsubmit="return validate_form();" method="POST">
+        <h1>Get in Touch</h1>
+        <div class="row form-group">
+          <div class="col-md-8">
+            <label class="font-weight-bold">Full Name*</label>
+            <input type="text" class="form-control" placeholder="Your Full Name" name="full_name">
+          </div>
+        </div>
+        <div class="row form-group">
+          <div class="col-md-8">
+            <label class="font-weight-bold">Email*</label>
+            <input type="email" class="form-control" placeholder="Your Email Address" name="email">
+          </div>
+        </div>
+        <div class="row form-group">
+          <div class="col-md-8">
+            <label class="font-weight-bold">Phone*</label>
+            <input type="tel" pattern="[0-9]{10}" class="form-control" placeholder=" Your Phone No." name="phone">
+          </div>
+        </div>
+        
+
+        <div class="row form-group">
+          <div class="col-md-8">
+            <label class="font-weight-bold">Feedback*</label>
+            <textarea class="form-control" name="feedback" placeholder="Your Feedback..."></textarea></div>
+        </div>
+
+        <div class="row form-group">
+          <div class="col-md-12">
+            <button type="submit" class="btn btn-info">Submit</button>
+            <button type="reset" class="btn btn-danger">Reset</button>
+          </div>
+        </div>
+      </form>
+      </div>
+      <div class="col-lg-4">
+        <div class="p-4 mb-3 bg-white">
+          <h1 class="ours" style="margin-top: 25px !important;">Contact Info</h1>
+          <p class="mb-0 font-weight-bold">Address</p>
+          <p class="mb-4">A-110, Vishwas City 1, Sola, Ahmedabad, Gujarat 380061.</p>
+
+          <p class="mb-0 font-weight-bold">Phone</p>
+          <p class="mb-4">0123456789</p>
+
+          <p class="mb-0 font-weight-bold">Email Address</p>
+          <p class="mb-0">info@theoberoi.com</p>
+         <br>  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--Map-->
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670.576556842583!2d72.
+52410261444324!3d23.075980820121615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39
+5e834be0465a65%3A0x20df4c5c6595f6c4!2sa%20110%2C%20Vishwas%20City%201%2C%20Sola%2C%20Ahmedabad
+%2C%20Gujarat%20380061!5e0!3m2!1sen!2sin!4v1611845440689!5m2!1sen!2sin"
+width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" 
+tabindex="0"></iframe>
+
+      
+
+
+<!-- FOOTER -->
+<div class="footer" style="margin-bottom: -40px !important;">
+  <div class="inner-footer">
+    <div class="footer-items">
+      <h1>The Oberoi</h1>
+      <p>
+        The Oberoi Hotel Ahmedabad welcomes you to the heart of the city's 
+        bustling downtown district with modern luxury and award-winning service.
+      </p>
+    </div>
+    
+    <div class="footer-items">
+      <h2>Quick Links</h2>
+      <hr color="white" width="45px" style="margin-left: 3px; height:1px;"> 
+      
+      <ul style="margin-left:-37px;">
+        <a href="index.html"><li>Home</li></a>
+        <a href="rooms.html"><li>Rooms</li></a>
+        <a href="services.html"><li>Services</li></a>
+        <a href="contact.html"><li>Contact-us</li></a>       
+      </ul>
+    </div>
+    
+    <div class="footer-items">
+      <h2> Follow-Us</h2>
+      <hr color="white" width="45px" style="margin-left: 3px; height:1px;"> 
+     
+      <div class="social-media">
+        <p>Please Follow Us On Social Media</p>
+        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+      </div>
+  </div>
+
+    <div class="footer-items" >
+      <h2>Contact Us</h2>
+      <hr color="white" width="45px" style="margin-left: 3px; height:1px;"> 
+      
+      <ul style="margin-left: -40px;">
+        <li><i class="fa fa-map-marker" aria-hidden="true"></i>A-110, Vishwas City 1, Sola, Ahmedabad, Gujarat 380061.</li>
+        <li><i class="fa fa-phone" aria-hidden="true"></i>0123456789</li>
+        <li><i class="fa fa-envelope" aria-hidden="true"></i>info@theoberoi.com</li>
+      </ul>
+    </div>
+    
+    
+  <div class="footer-bottom" style="background: none;">
+            Copyright &copy; 2021 - <b>The Oberoi</b>. All Rights Reserved. 
+  </div>
+  </div>
+
+      
+      <script src="../bootstrap/js/jquery-3.3.1.min.js"></script>
+      <script src="../bootstrap/js/bootstrap.min.js"></script>
+      <script src="../bootstrap/js/popper.min.js"></script>
+      <script src="../JS/script.js"></script>
+
+
+</body>
+</html>

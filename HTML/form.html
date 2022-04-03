@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width", initial-scale="1.0"/>
+    <title>The Oberoi</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@600&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" type="text/css" href="../CSS/form.css">
+    <link rel="stylesheet" href="../CSS/room.css">
+    <link rel="icon" href="../images/logo-titlebar.png" type="image/icon">
+  </head>
+<body>
+
+<!--Navbar-->
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-transparent">
+  <a class="navbar-brand" href="index.html"><img src="../images/logo-nav.png"><b> The Oberoi</b></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html"><b>Home</b> </a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="rooms.html"><b>Rooms</b></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="services.html"><b>Services</b></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html"><b>Contact-us</b></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<br><br><br><br>
+
+<!--Sale-Marquee-->
+<marquee style="color: red;">*Deal Of The Week:- Enjoy 10% discount on Booking Of 2 Rooms.
+</marquee>
+
+<!---Booking Form-->
+<h2 class="book">Booking Form</h2>
+<hr width="170px" style="height: 3px; margin-left: 18px;margin-top: 1px!important;" color="black"><br>
+<form class="col-md-12" name="bookingform" onsubmit="return validate_booking_form();" method="POST">
+    <div class="form-row">
+      <div class="form-group col-md-5">
+        <label class="font-weight-bold">First Name*</label>
+        <input type="text" class="form-control" name="firstname">
+      </div>
+      <div class="form-group col-md-5">
+        <label class="font-weight-bold">Last Name*</label>
+        <input type="text" class="form-control" name="lastname">
+      </div>
+    
+    <div class="form-group col-md-10">
+      <label class="font-weight-bold">Address*</label>
+      <input type="text" class="form-control" name="address">
+    </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-4">
+        <label class="font-weight-bold">City*</label>
+        <input type="text" class="form-control" name="city">
+      </div>
+      <div class="form-group col-md-4">
+        <label class="font-weight-bold">State*</label>
+        <input type="text" class="form-control" name="state">
+      </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-4">
+          <label class="font-weight-bold">Email*</label>
+          <input type="email" class="form-control" name="email">
+        </div>
+    
+            <div class="form-group col-md-4">
+              <label class="font-weight-bold">Phone Number*</label>
+              <input type="tel" pattern="[0-9]{10}" class="form-control" name="phone">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-2">
+              <label class="font-weight-bold">Check-in Date*</label>
+              <input type="date" class="form-control" name="checkindate">
+            </div>
+        
+            <div class="form-group col-md-2">
+              <label class="font-weight-bold">Check-in Time*</label>
+              <input type="time" class="form-control" name="checkintime">
+            </div>
+
+            <div class="form-group col-md-2">
+                <label class="font-weight-bold">Check-out Date*</label>
+                <input type="date" class="form-control" name="checkoutdate">
+              </div>
+          
+              <div class="form-group col-md-2">
+                <label class="font-weight-bold">Check-out Time*</label>
+                <input type="time" class="form-control" name="checkouttime">
+              </div>
+        </div>
+            <div class="form-group col-md-4">
+              <table class="table table-bordered">
+                
+                  <tr>
+                    <th scope="col">Sr. No.</th>
+                    <th scope="col">Room</th>
+                    <th scope="col">Price</th>                    
+                  </tr>
+              
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Standard</td>
+                    <td>₹1999</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Deluxe</td>
+                    <td>₹4999</td>
+                    
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Suite</td>
+                    <td>₹6999</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Executive-Suite</td>
+                    <td>₹9999</td>
+                  </tr>
+               
+              </table>
+            </div>
+        
+
+  
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-5">
+                  <label class="font-weight-bold">Rooms:-*</label><br>
+                  <input type="checkbox" class="rooms1" name="room">&nbsp;&nbsp;Standard
+                  <input type="checkbox" class="rooms1" name="room">&nbsp;&nbsp;Deluxe
+                  <input type="checkbox" class="rooms1" name="room">&nbsp;&nbsp;Suite
+                  <input type="checkbox" class="rooms1" name="room">&nbsp;&nbsp;Executive-Suite
+                </div>
+           
+                <div class="form-group col-md-1">
+                    <label class="font-weight-bold" style="margin-left: 20px !important;">Adults*</label>
+                    <input type="number" class="form-control" name="adults" min="1" max="10">                 
+                </div>
+
+                <div class="form-group col-md-1">
+                  <label class="font-weight-bold" style="margin-left: 20px !important;">Child*</label>
+                  <input type="number" class="form-control" min="0" max="10">                 
+              </div>
+                </div>
+            </div>
+            
+              
+
+    <div class="form-group">
+    </div>
+    <button type="submit" class="btn btn-info">Book Now</button>
+    <button type="reset" class="btn btn-danger">Reset</button>
+  </form>
+<br><br>
+  
+
+<!-- FOOTER -->
+<div class="footer" style="margin-bottom: -40px !important;">
+  <div class="inner-footer">
+    <div class="footer-items">
+      <h1>The Oberoi</h1>
+      <p>
+        The Oberoi Hotel Ahmedabad welcomes you to the heart of the city's 
+        bustling downtown district with modern luxury and award-winning service.
+      </p>
+    </div>
+    
+    <div class="footer-items">
+      <h2>Quick Links</h2>
+      <hr color="white" width="45px" style="margin-left: 3px; height:1px;"> 
+      
+      <ul style="margin-left:-37px;">
+        <a href="index.html"><li>Home</li></a>
+        <a href="rooms.html"><li>Rooms</li></a>
+        <a href="services.html"><li>Services</li></a>
+        <a href="contact.html"><li>Contact-us</li></a>       
+      </ul>
+    </div>
+    
+    <div class="footer-items">
+      <h2> Follow-Us</h2>
+      <hr color="white" width="45px" style="margin-left: 3px; height:1px;"> 
+     
+      <div class="social-media">
+        <p>Please Follow Us On Social Media</p>
+        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+      </div>
+  </div>
+
+    <div class="footer-items" >
+      <h2>Contact Us</h2>
+      <hr color="white" width="45px" style="margin-left: 3px; height:1px;"> 
+      
+      <ul style="margin-left: -40px;">
+        <li><i class="fa fa-map-marker" aria-hidden="true"></i>A-110, Vishwas City 1, Sola, Ahmedabad, Gujarat 380061.</li>
+        <li><i class="fa fa-phone" aria-hidden="true"></i>0123456789</li>
+        <li><i class="fa fa-envelope" aria-hidden="true"></i>info@theoberoi.com</li>
+      </ul>
+    </div>
+    
+    
+  <div class="footer-bottom" style="background: none;">
+            Copyright &copy; 2021 - <b>The Oberoi</b>. All Rights Reserved. 
+  </div>
+</div>
+
+      
+      <script src="../bootstrap/js/jquery-3.3.1.min.js"></script>
+      <script src="../bootstrap/js/bootstrap.min.js"></script>
+      <script src="../bootstrap/js/popper.min.js"></script>
+      <script src="../JS/script.js"></script>
+
+
+</body>
+</html>
